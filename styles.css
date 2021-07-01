@@ -1,0 +1,122 @@
+body {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+h3 {
+    font-weight:600 ;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+h6 {
+    font-weight: 400;
+    color: black;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/* Sections */
+.white-section {
+    background-color: #FAF1E6;
+}
+.color-section {
+    background-color:#FB9300 ;
+    color: rgb(5, 5, 5);
+}
+
+/*Title*/
+#title {
+    padding: 1% 15%;
+}
+
+.dropdown-text {
+    color: #FFFFFF80;
+}
+
+/*Pairings*/
+#pairing {
+    padding: 5% 15%;
+}
+
+.player-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.image-hover img:hover {
+    border: 5px solid #FAF1E6;
+}
+
+/*Leaderboard*/
+#leaderboard {
+    padding: 5% 15%;
+}
+
+/*Pills*/
+.nav-pills > li > a.active {
+    background-color: #FB9300 !important;
+}
+
+.nav-pills a {
+    color:black;
+}
+
+/*Champions*/
+#champions {
+    padding: 5% 30%;
+}
+
+/*Losers*/
+#losers {
+    padding: 5% 30%;
+}
+
+/*Bio*/
+#bio {
+    padding: 3% 22%;
+}
+
+.bio-image {
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.bio-list {
+    text-align: left;
+}
+
+/*Awards*/
+#awards {
+    padding: 3% 25%;
+    text-align: center;
+}
+
+/*Recent Rounds*/
+#recent-rounds {
+    padding: 3% 30%;
+}
+
+/* Footer */
+.social-icon {
+    margin: 20px 10px;
+}
+
+.foot {
+    padding-bottom: 20px;
+}
+
+
+
+
