@@ -111,6 +111,11 @@ p {
 /* Footer */
 .social-icon {
     margin: 20px 10px;
+    color: black;
+}
+
+.social-icon:hover {
+    opacity: 0.7;
 }
 
 .foot {
