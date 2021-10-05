@@ -63,6 +63,24 @@ p {
     padding: 5% 15%;
 }
 
+.birdie {
+    background-image:
+    -webkit-radial-gradient(
+      circle,
+      #faf1e656, #faf1e656 14px, transparent 14px
+    );
+     background-image:
+    radial-gradient(
+      circle,
+      #faf1e656, #faf1e656 14px, transparent 14px
+    );
+}
+
+.totals {
+    font-weight: 700;
+}
+
+
 /*Pills*/
 .nav-pills > li > a.active {
     background-color: #FB9300 !important;
