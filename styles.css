@@ -24,6 +24,10 @@ p {
     margin-bottom: 0;
 }
 
+th {
+    min-width: 50px;
+}
+
 
 /* Sections */
 .white-section {
@@ -64,17 +68,28 @@ p {
 }
 
 .birdie {
-    background-image:
-    -webkit-radial-gradient(
-      circle,
-      #faf1e656, #faf1e656 14px, transparent 14px
-    );
-     background-image:
-    radial-gradient(
-      circle,
-      #faf1e656, #faf1e656 14px, transparent 14px
-    );
+    position: relative !important;
+    border-radius: 100% !important;
+    box-shadow: inset 0px 0px 0px 2px white;
 }
+
+.eagle {
+    position: relative !important;
+    border-radius: 100% !important;
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+.eagle:before {
+    content: " ";
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid white;
+    border-radius: 100%;
+  }
 
 .totals {
     font-weight: 700;
