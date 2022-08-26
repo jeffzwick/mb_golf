@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MB Invitational</title>
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS Stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">    
+    <link rel="stylesheet" href="styles.css">
+
+      <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+
+      <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</head>
+<body>
+      <!--NAVIGATION BAR-->
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="title">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/MB_Logo.jpg" alt="" width="100" height="80" class="d-inline-block align-text-center">
+       Man Beaver Invitational
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+              Players
+            </a>
+            <ul class="dropdown-menu dropdown-color bg-dark" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/K Boss.html">Brian</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/D Block.html">Derek</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Jeff.html">Jeff</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Justin.html">Justin</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Kyle.html">Kyle</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Mike.html">Mike</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Gregg.html">Gregg</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Goose.html">Ryan</a></li>
+              <li><a class="dropdown-item dropdown-text" href="Player Bios/Rob.html">Rob (decommissioned)</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="../mb_golf/index.html#leaderboard">Leaderboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../mb_golf/index.html#champions">Champions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../mb_golf/index.html#losers">Hoffions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="Tournament Stats.html">Stats</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- Net Stats -->
+
+  <div class="color-section stats-list">
+    <br>
+    <h2>Net Stats</h2>
+    <br>
+    <div class="row">
+    <div class="col-lg-4 stats-list">
+        <h3>Averages</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Jeff</td>
+                        <td>70.33</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Kyle</td>
+                        <td>72.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Justin</td>
+                        <td>73</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Mike</td>
+                        <td>73.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Brian</td>
+                        <td>74.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#6</th>
+                        <td>Derek</td>
+                        <td>77.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#7</th>
+                        <td>Gregg</td>
+                        <td>N/A (still better than Goose)</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#8</th>
+                        <td>Ryan</td>
+                        <td>79</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-4 stats-list">
+        <h3>Best Rounds</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Jeff</td>
+                        <td>67</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Justin</td>
+                        <td>68</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Kyle</td>
+                        <td>69</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Brian</td>
+                        <td>70</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Jeff</td>
+                        <td>70</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+     <div class="col-lg-4 stats-list">
+        <h3>Worst Rounds</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Ryan</td>
+                        <td>82</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Derek</td>
+                        <td>79</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Brian</td>
+                        <td>79</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Derek</td>
+                        <td>78</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Ryan</td>
+                        <td>78</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+    </div>
+</div>
+
+<!-- Gross Stats -->
+
+  <div class="white-section stats-list">
+    <br>
+    <h2>Gross Stats</h2>
+    <br>
+    <div class="row">
+    <div class="col-lg-4 stats-list">
+        <h3>Averages</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Justin</td>
+                        <td>79.33</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Derek</td>
+                        <td>88</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Ryan</td>
+                        <td>88</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Mike</td>
+                        <td>89</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Kyle</td>
+                        <td>91.33</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#6</th>
+                        <td>Jeff</td>
+                        <td>92</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#7</th>
+                        <td>Brian</td>
+                        <td>97</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#8</th>
+                        <td>Gregg</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-4 stats-list">
+        <h3>Best Rounds</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Justin</td>
+                        <td>72</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Justin</td>
+                        <td>82</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Jeff</td>
+                        <td>83</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Derek</td>
+                        <td>83</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Ryan</td>
+                        <td>84</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+     <div class="col-lg-4 stats-list">
+        <h3>Worst Rounds</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Score</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Brian</td>
+                        <td>99</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Jeff</td>
+                        <td>98</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Brian</td>
+                        <td>96</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Rob</td>
+                        <td>96</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Jeff</td>
+                        <td>95</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+    </div>
+</div>
+
+<!-- Putting Stats -->
+
+<div class="color-section stats-list">
+    <br>
+    <h2>Putting Stats</h2>
+    <br>
+    <div class="row">
+    <div class="col-lg-4 stats-list">
+        <h3>Averages</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Average</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Derek</td>
+                        <td>30.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Kyle</td>
+                        <td>31.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Justin</td>
+                        <td>32.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Mike</td>
+                        <td>32.67</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Ryan</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#6</th>
+                        <td>Brian</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#7</th>
+                        <td>Jeff</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#8</th>
+                        <td>Gregg</td>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-lg-4 stats-list">
+        <h3>Fewest Putts</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Putts</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Derek</td>
+                        <td>29</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Derek</td>
+                        <td>30</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Kyle</td>
+                        <td>30</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Kyle</td>
+                        <td>30</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Mike</td>
+                        <td>30</td>
+                        <td>Brasada</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+     <div class="col-lg-4 stats-list">
+        <h3>Most Putts</h3>
+        <div class= "table-responsive"><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Rank</th>
+                        <th scope="col">Player</th>
+                        <th scope="col">Putts</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">#1</th>
+                        <td>Jeff</td>
+                        <td>37</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#2</th>
+                        <td>Ryan</td>
+                        <td>36</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#3</th>
+                        <td>Justin</td>
+                        <td>36</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#4</th>
+                        <td>Mike</td>
+                        <td>35</td>
+                        <td>Crooked River</td>
+                        <td>'21</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">#5</th>
+                        <td>Kyle</td>
+                        <td>35</td>
+                        <td>Crosswater</td>
+                        <td>'21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+    </div>
+</div>
+    <!-- Footer -->
+
+    <footer class = "white-section" id="footer">
+        <div class="container-fluid foot">
+          <a class="social-icon fab fa-twitter fa-lg"></a>
+          <a class="social-icon fab fa-facebook fa-lg"></a>
+          <a href ="https://www.instagram.com/manbeaver_golf/">
+          <i class="social-icon fab fa-instagram fa-lg"></i>
+          </a>
+          <p>© Copyright 2021 MB International</p>
+        </div>
+      </footer>
+</body>
+</html>
