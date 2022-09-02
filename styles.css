@@ -1,10 +1,10 @@
 body {
     font-family: 'Montserrat';
     text-align: center;
-    height: 400px;
+    /*height: 400px;
     width: 100vw;
     margin: 0;
-    padding: 0;
+    padding: 0;*/
 }
 
 h2 {
@@ -117,12 +117,12 @@ th {
 
 /*Champions*/
 #champions {
-    padding: 5% 30%;
+    padding: 5% 25%;
 }
 
 /*Losers*/
 #losers {
-    padding: 5% 30%;
+    padding: 5% 25%;
 }
 
 /*Bio*/
